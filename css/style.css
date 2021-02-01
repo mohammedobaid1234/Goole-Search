@@ -1,0 +1,383 @@
+*{
+   -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Arial ,Tahoma;
+    padding: 0;
+    margin: 0;
+}
+.clearfix{
+    clear: both;
+}
+.logo1{
+    display: flex;
+}
+header .logo1 .logo img{
+    width: 100px;
+    margin: 30px 10px;
+}
+header .logo1 div:nth-of-type(2){
+    position: relative;
+    top: 20px;
+    left: 35px;
+}
+header .logo1 div input{
+    width: 650px;
+    height: 50px;
+    border-radius: 30px;
+    border-color:#Ddd ;
+}
+header .logo1 div span{
+    position: relative;
+    right: 60px;
+    margin-right: 15px;
+    color: #1877f2;
+}
+header .logo1 div span i{
+    height: 10px;
+}
+
+header .logo1 div:last-of-type{
+    margin-left: auto;
+}
+header .logo1 .av img:first-of-type{
+    margin-right: 30px;
+    position: relative;
+    width: 20px;
+    top:0px;
+}
+header .logo1 .av img:nth-of-type(2){
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+header .logo2{
+    display: inline-flex;
+    width: 50%;
+    margin-left: 115px;
+    margin-bottom: 10px;
+    
+}
+header .logo2 .r{
+    margin-left: auto;
+}
+header .logo2 .r ul li{
+    display: inline;
+    margin-right: 10px;
+    font-size:15px;
+    color: #5f6368;
+}
+header .logo2 .l ul li{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+header .logo2 .l ul li a{
+    text-decoration: none;
+    color: #5f6368;
+}
+header .logo2 .l ul li span{
+    color: #5f6368;
+    margin-right: 3px;
+}
+header{
+    border-bottom: 1px solid #ddd;
+}
+body > main{
+    margin-top: 10px;
+}
+main .left-c{
+     margin-left: 150px;
+    width: 55%;
+    float: left;
+}
+main .first{
+    color: #70757a;
+    width: 300px;
+    text-align: center;
+   
+}
+.left-c section{
+    margin-bottom: 30px;
+}
+.left-c section a{
+    text-decoration: none;
+}
+.left-c section h5{
+    margin-bottom: 0;
+    margin-bottom: 8px;
+    color: #202124;
+}
+.left-c section h5 span{
+    color: #202124;
+}
+.left-c section > a{
+    font-size: 22px; 
+}
+
+.left-c section > p{ 
+    font-size: 15px;
+    color: #4d5156;
+    margin-top: 0;
+}
+.left-c section p{
+   line-height: 25px;
+}
+.left-c section > p span{
+   font-weight: bold;
+}
+.left-c section .one-L{
+    width: 80%;
+    margin-bottom: 0;
+}
+.left-c section .one-L li{
+    list-style: none;
+    width: 50%;
+    float: left;
+    
+    
+}
+.left-c section .one-L li a{
+    font-size: 20px;
+}
+.left-c section .one-L li p{
+    margin-top: 0;    
+    width: 86%;
+    text-align: left;
+    color: #4d5156;
+}
+.left-c section .last-a{
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.left-c section ol li{
+    list-style: none;
+   width: 45%;
+    float: left;
+    margin-bottom: 15px;
+  
+}
+.left-c section ol{
+    width: 50%;
+    margin-bottom: 0;
+     display: inline;
+}
+.left-c section ol li a{
+    font-weight: bold;
+    font-size: 15px;
+    color: #4d5156;
+}
+.left-c section .se-l{
+     display: inline;
+   
+}
+.left-c section .se-l li:first-of-type{
+    font-weight: bold;
+}
+.left-c section .se-l li{
+    list-style: none;
+     border: 1px solid #ddd;
+    padding-left: 10px;
+    font-size: 18px;
+    color: #4d5156;
+}
+.left-c section .Last-a {
+    color: #4d5156;
+    font-size: 12px;
+    font-style: italic;
+   direction: rtl;
+    margin-top: 10px;
+}
+
+.left-c section .conF .oneF, .twoF, .threeF{
+     border: 1px solid #ddd;
+     height: 416px;
+        
+    width: 30.33333333%;
+    float: left;
+    padding: 20px;
+   border-radius: 10px;
+    margin: 10px;
+    
+}
+
+.left-c section .conF img{
+    width: 100%;
+    
+}
+.left-c section .conF mian a{
+  
+    padding: 20px;
+
+}
+.left-c section .conF footer {
+     margin-top: 70px;
+   
+}
+.left-c section .conF .twoF footer{
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+.left-c section .last-L li{
+    margin-right: 0;
+    width: 34%;
+}
+aside {
+    width: 33%;
+    float: right;
+    margin-top: 60px;
+    border: 1px solid #ddd;
+     height: 685px;
+    border-radius: 10px;
+}
+aside .conA{
+     width: 90%;
+    margin: 0 auto;
+}
+aside header{
+   
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    height: 150px;
+}
+aside header .A-left{
+    width: 50%;
+    float: left;
+}
+aside header .A-left h1{
+    margin-bottom: 0;
+}
+aside header .A-left p{
+    margin-top: 10;
+    color: #4d5156;
+}
+aside header .A-right{
+    width: 50%;
+    float: left;
+}
+aside header .A-right img {
+    width: 100%;
+    height: 100%;
+}
+aside header .A-right span{
+   position: absolute;
+    top: 45px;
+    left: 160px;
+    
+}
+aside main p{
+    color: #4d5156;
+    line-height: 25px;
+    
+}
+aside main ul{
+    display: inline;
+    list-style: none;
+}
+aside main ul li > a{
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+}
+aside main ul li{
+    margin-bottom: 10px;
+}
+aside main ul li span {
+     color: #4d5156;
+    font-size: 15px;
+}
+
+aside footer .FAT .FATL a{
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+   margin-top:  20px;
+    float: left;
+    width: 70%;
+    
+}
+aside footer .FAT .FATR a{
+    font-size: 14px;
+    color: #4d5156;
+    text-decoration: none;
+    margin-top:  20px;
+    float: left;
+    width: 30%;
+    
+}
+aside footer {
+    position: relative;
+}
+
+aside footer .FAB{ 
+    position: absolute;
+    display: flex;
+    width: 25%;
+    margin: 25px;
+   
+   
+}
+aside footer .FAB img{
+margin-left: 20px;
+    display: block;
+  width: 50px;
+    height: 50px;
+    margin-left: 25px;
+    
+} 
+footer .FF>*{
+    border-top: 1px solid #ccc;
+}
+footer .FF p{
+    
+    float: left;
+    padding: 10px;
+    padding-left: 0;
+    background: #DDD;
+    color: #4d5156;
+}
+footer .FF p:first-child{
+    
+    direction: rtl;
+    width: 20%;
+    
+}
+footer .FF p span{
+    color: #000;
+    font-weight: bold;
+}
+
+footer .FF p:last-of-type{
+     width: 80%;
+}
+footer .FF p:first-of-type:before{
+    content: "|";
+}
+footer .FB{
+    background: #DDD;
+    
+}
+footer .FB .CFB{
+     
+    margin-left: 150px;
+}
+footer .FB ul li{
+    float: left;
+    margin-left: 40px;
+    list-style: none;
+    padding: 10px;
+     
+}
+footer .FB ul li a{
+    text-decoration: none;
+     
+    color: #4d5156;
+}
+
+
+
+
+
+
